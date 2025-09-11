@@ -86,8 +86,9 @@ The application uses:
 When you speak, your audio is:
 1. Transcribed to text using Moonshine
 2. Sent to a local LLM via Ollama for processing
-3. The LLM response is converted back to speech with Kokoro
+3. The LLM response is converted back to speech with Kokoro or Piper
 4. The audio response is streamed back to you via FastRTC
+
 
 
 
