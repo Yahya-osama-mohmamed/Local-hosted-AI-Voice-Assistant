@@ -9,12 +9,14 @@ from loguru import logger
 from ollama import chat
 from piper import PiperVoice
 
+
+
 # STT model
 stt_model = get_stt_model()
 
 # TTS: Load Piper model
 piper_voice = "en_US-lessac-medium.onnx"
-tts_model = PiperVoice.load(piper_voice, use_cuda=True)
+tts_model = PiperVoice.load(piper_voice)
 
 logger.remove(0)
 logger.add(sys.stderr, level="DEBUG")
