@@ -18,8 +18,8 @@ A real-time voice chat application powered by local AI models. This project allo
 ### 1. Clone the repository
 
 ```bash
-git clone 
-cd local-voice-ai-agent
+git clone https://github.com/Yahya-osama-mohmamed/Complete-AI-Voice-Assistant-.git
+cd Complete-AI-Voice-Assistant
 ```
 
 ### 2. Set up Python environment and install dependencies
@@ -88,3 +88,4 @@ When you speak, your audio is:
 2. Sent to a local LLM via Ollama for processing
 3. The LLM response is converted back to speech with Kokoro
 4. The audio response is streamed back to you via FastRTC
+
