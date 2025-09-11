@@ -1,4 +1,4 @@
-# Local Voice AI Agent
+# Local AI Voice Assistant
 
 A real-time voice chat application powered by local AI models. This project allows you to have voice conversations with AI models like Gemma running locally on your machine.
 
@@ -88,6 +88,7 @@ When you speak, your audio is:
 2. Sent to a local LLM via Ollama for processing
 3. The LLM response is converted back to speech with Kokoro
 4. The audio response is streamed back to you via FastRTC
+
 
 
 
