@@ -27,9 +27,10 @@ cd Local-hosted-AI-Voice-Assistant
 ```bash
 python -m venv venv
 source .venv/bin/activate
+
 ## Prerequisites
 
-- pip install -r requirements.txt
+pip install -r requirements.txt
 
 ### 3. Download required models in Ollama
 
@@ -88,6 +89,7 @@ When you speak, your audio is:
 2. Sent to a local LLM via Ollama for processing
 3. The LLM response is converted back to speech with Kokoro or Piper
 4. The audio response is streamed back to you via FastRTC
+
 
 
 
